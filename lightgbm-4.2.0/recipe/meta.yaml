@@ -14,7 +14,7 @@ source:
     - 0001-Fix-failure-with-FindCUDA.patch     #[ppc64le and build_type == 'cuda'] 
 
 build:
-  number: 6
+  number: 7
   run_exports:
     - {{ pin_subpackage("liblightgbm", max_pin="x.x.x") }}
 
